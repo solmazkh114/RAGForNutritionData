@@ -24,9 +24,16 @@ In this project, we use **Qdrant** as the retrieval system, which allows us to s
 
 **Sentence Transformers** is a library used to convert textual data into **embeddings** (dense vector representations). These embeddings capture the semantic meaning of sentences, allowing models to compare and retrieve similar texts efficiently.
 
-### 3. **Models Used: BART, FLAN-T5, and BLOOM**
+## Notebooks
 
-We use three different models for generating the final response: **BART**, **FLAN-T5**, and **BLOOM**. These models are all powerful pre-trained language models but note that
-they are not large enough to produce a good response. Due to lack of resource, we did not utilize larger models (like Meta Llama), but for sure, they will provide better reponses. 
+This repository contains two notebooks.
 
+### 1.**RAGwithNutritionData.ipynb**
 
+This notebook demonstrates the implementation of a Retrieval-Augmented Generation (RAG) system using three smaller models: FLAN-T5, BLOOM, and BART. While these models are efficient and relatively lightweight, they may not produce responses as rich or insightful as larger models due to their smaller size and reduced capacity for complex understanding.
+
+ ### 2. **RAG with Meta-Llama.ipynb**
+
+This notebook implements a more powerful Retrieval-Augmented Generation (RAG) system using the Meta-Llama-3-8B model. Compared to the smaller models in the another notebook, Meta-Llama-3-8B provides significantly better responses, leveraging its larger model size to produce more detailed and contextually accurate outputs.
+
+Instructions for connecting to and gaining access to the Meta-Llama-3-8B model are included in this notebook, ensuring users can fully utilize it.
