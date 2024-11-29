@@ -32,6 +32,8 @@ This repository contains two notebooks.
 
 This notebook demonstrates the implementation of a Retrieval-Augmented Generation (RAG) system using three smaller models: FLAN-T5, BLOOM, and BART. While these models are efficient and relatively lightweight, they may not produce responses as rich or insightful as larger models due to their smaller size and reduced capacity for complex understanding.
 
+This notebook provides more insight into the process.
+
  ### 2. **RAGwithLlama.ipynb**
 
 This notebook implements a more powerful Retrieval-Augmented Generation (RAG) system using the Meta-Llama-3-8B model. Compared to the smaller models in the another notebook, Meta-Llama-3-8B provides significantly better responses, leveraging its larger model size to produce more detailed and contextually accurate outputs.
